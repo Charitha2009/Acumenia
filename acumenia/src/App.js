@@ -10,7 +10,7 @@ const Header = () => {
       
       <nav>
         <ul>
-          
+         
           <li><FontAwesomeIcon icon={faGlobe} style={{color: "#000000", marginRight:'7px'}} />
       Our Story</li>
           <li><FontAwesomeIcon icon={faPhone} style={{ color: '#000000', marginRight:'7px'}} />Contact</li>
@@ -33,7 +33,7 @@ const MainContent = () => {
     
       </div>
       <div className="image">
-        <img src="acumenia/public/images/blackboard-background-7q4z6ypqigw9nbis.jpg" alt="Your" />
+        <img src="/images/Untitled.png" alt="Your" style={{ width: '80%', height: 'auto' }}/>
       </div>
     </div>
   );
