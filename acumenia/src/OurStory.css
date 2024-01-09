@@ -1,0 +1,75 @@
+.our-story-container {
+    display: flex;
+    width: 100%;
+    padding-bottom: 10vh;
+  }
+  
+  .content {
+    flex: 1;
+    padding-left: 10vw;
+    padding-right: 5vw;
+    text-align: center;
+
+  }
+  
+  .image {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    width: 40vw;
+  }
+  
+  .heading {
+    font-size: 3em;
+  }
+
+  .medium-text{
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .contributors-section{
+    background-color: black;
+    padding: 5vw;
+    text-align: center;
+  }
+
+  .contributors-heading{
+    font-size: 3em;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .white-text{
+    color: white;
+  }
+
+  .grid-cards{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 8vw;
+
+    gap: 6vw;
+  }
+
+  .card{
+    height: 40vh;
+    width: 20vw;
+    background-color: white;
+  }
+
+  .contributors-image{
+    height: 30vh;
+    width: 20vw;
+  }
+
+  .contributors-name{
+    text-align: center;
+    padding: 3vh;
+  }
